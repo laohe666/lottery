@@ -19,6 +19,7 @@ public interface ScheduledOfTask extends Runnable{
         if ("".equals(springScheduledCron.getStatus())) {
             return;
         }
+
         execute();
     }
 }
